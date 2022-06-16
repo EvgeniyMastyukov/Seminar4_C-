@@ -5,14 +5,14 @@ Console.WriteLine("Введите размер массива: ");
 int number = int.Parse(Console.ReadLine());
 
 int[] array = new int[number];
-int lenght = array.Length;
-for (int count = 0; count < lenght; count++)
+int length = array.Length;
+for (int count = 0; count < length; count++)
 {
     Console.Write($"Введите {count} элемент массива + клавиша Enter    ");
     array[count] = int.Parse(Console.ReadLine());
 }
 Console.Write($" Массив array    ");
-for (int i = 0; i < lenght; i++)
+for (int i = 0; i < length; i++)
 {
     Console.Write($" {array[i]}  ");
 }
